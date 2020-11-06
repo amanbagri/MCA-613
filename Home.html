@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MCA-613-Assignment</title>
+    <link rel="stylesheet" href="Css.css">
+    <style>
+        #header {
+            border: 3px solid;
+            padding: 0;
+            margin: 20px 20px 20px 20px;
+            text-align: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 36% 36% 36%;
+            padding: 2%;
+            margin-right: 2%;
+            pointer-events:none;
+        }
+        .web{
+            height:500px;
+            width:85%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Html.html">HTML</a></li>
+            <li><a href="Css.html">CSS</a></li>
+            <li><a href="Javascript.html">JavaScript</a></li>
+        </ul>
+    </nav>
+    <h1 id="header"> MCA-613-Assignment</h1>
+    <div class="grid-container">
+        <div>
+            <h2>HTML<h2></h2><iframe src="Html.html"  class="web" sandbox=""></iframe>
+        </div>
+        <div>
+            <h2>Css<h2></h2><iframe src="Css.html" class="web"></iframe>
+        </div>
+
+        <div>
+            <h2>JavaScript<h2></h2><iframe src="JavaScript.html" class="web"></iframe>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
